@@ -37,16 +37,28 @@ Configuration: YAML
 📂 Project Structure
 .
 ├── data/                     # Data files (tracked by DVC)
+
 │   └── diabetes.csv
+
 ├── models/                   # Saved model artifacts (tracked by DVC)
+
 │   └── model.pkl
+
 ├── src/                      # Source code for the pipeline
+
+
 │   └── train.py              # Main training script
+
 ├── .dvc/                     # DVC metadata files
+
 ├── .gitignore
+
 ├── dvc.yaml                  # DVC pipeline definition
+
 ├── params.yaml               # Parameters for the pipeline (hyperparameters, etc.)
+
 ├── requirements.txt          # Python dependencies
+
 └── README.md
 
 🚀 How to Run
